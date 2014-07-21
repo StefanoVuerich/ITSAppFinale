@@ -12,17 +12,21 @@
         datatype: "json",
         success: function (data) {
             for (var news_obj in data) {
-                var news = new Object();
-                news.id = data[news_obj].Id;
-                news.data = data[news_obj].DataPubblicazione;
-                news.titolo = data[news_obj].Titolo;
-                news.testo = data[news_obj].Testo;
-                news.foto = data[news_obj].UrlFoto;
+
+                var testo = data[news_obj].Testo;
+                var foto = data[news_obj].UrlFoto;
+
+                if (foto = "") {
+                    foto = "";
+                } else {
+                    foto = "<img src='" + data[news_obj].UrlFoto + "' class='image' style='width:150px; height:auto;' />"
+                }
+
                 var newsObj = "<tr>"
-                                + "<td class='id'>" + news.id + "</td>"
-                                + "<td class='titolo'><b>" + news.titolo + "</b></td>"
-                                + "<td class='data'>" + news.data + "</td>"
-                                + "<td><img src='" + news.foto + "' class='image' style='width:150px; height:auto;' /></td>"
+                                + "<td class='id'>" + data[news_obj].Id + "</td>"
+                                + "<td class='data'>" + data[news_obj].DataPubblicazione + "</td>"
+                                + "<td class='titolo'><b>" + data[news_obj].Titolo + "</b></td>"
+                                + "<td>" + foto  + "</td>"
                                 + "<td><span class='glyphicon glyphicon-edit editNews'></span><br/><span class='glyphicon glyphicon-trash deleteNews'></span></td>"
                                 + "</tr>";
                 $('#listaNews').prepend(newsObj);
@@ -38,7 +42,7 @@
                 var id = obj.parent().siblings('.id').text();;
                 $.ajax({
                     type: 'DELETE',
-                    url: '../api/news/' + id,
+                    url: '../api/news/del/' + id,
                     contentType: 'json',
                     dataType: 'json',
                     success: function (data) {

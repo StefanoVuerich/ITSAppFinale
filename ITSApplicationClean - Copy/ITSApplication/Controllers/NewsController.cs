@@ -18,11 +18,18 @@ namespace ITSApplication.Controllers
         SQLNewsRepository sqlNewsRepository = new SQLNewsRepository();
         [AllowAnonymous]
         [Queryable]
-        public IQueryable<News> GetAll()
+        public IEnumerable<News> GetAll()
         {
-            return sqlNewsRepository.GetAll().AsQueryable();
+            return sqlNewsRepository.GetAll();
         }
         [AllowAnonymous]
+        [Route("api/news/{lastFiveNews}")]
+        public IEnumerable<News> GetAll(string lastFiveNews)
+        {
+            return sqlNewsRepository.GetLastFive();
+        }
+        [AllowAnonymous]
+        [Route("api/news/{id:int}")]
         public News Get(int id)
         {
             News news = sqlNewsRepository.Get(id);
@@ -46,6 +53,7 @@ namespace ITSApplication.Controllers
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }
         }
+        [Route("api/news/del/{id:int}")]
         public void Delete(int id)
         {
             News news = sqlNewsRepository.Get(id);

@@ -44,7 +44,7 @@
 
                 $.ajax({
                     type: 'DELETE',
-                    url: '../api/events/' + id,
+                    url: '../api/events/del/' + id,
                     contentType: 'json',
                     dataType: 'json',
 

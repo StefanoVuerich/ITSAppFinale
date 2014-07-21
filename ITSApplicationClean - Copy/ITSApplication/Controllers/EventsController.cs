@@ -21,7 +21,13 @@ namespace ITSApplication.Controllers
             return sqlEventsRepository.GetAll();
         }
         [AllowAnonymous]
-        [Route("api/event/{id}")]
+        [Route("api/events/{lastFiveEvents}")]
+        public IEnumerable<Event> GetAll(string lastFiveEvents)
+        {
+            return sqlEventsRepository.GetLastFive();
+        }
+        [AllowAnonymous]
+        [Route("api/event/{id:int}")]
         public Event Get(int id)
         {
             Event event_obj = sqlEventsRepository.Get(id);
@@ -45,6 +51,7 @@ namespace ITSApplication.Controllers
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }
         }
+        [Route("api/events/del/{id:int}")]
         public void Delete(int id)
         {
             Event event_obj = sqlEventsRepository.Get(id);

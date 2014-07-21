@@ -18,10 +18,13 @@ namespace ITSApplication.Controllers
             string type = form["type"].ToString().Substring(9).ToLower();
             string titolo = form["titolo"].ToString();
             string testo = form["testo"].ToString();
-            string imagePath = "http://192.168.102.2/images/article/";
+
+            
+            string imagePath = "";
 
             if (file != null)
             {
+                imagePath = "http://192.168.102.2/images/article/";
                 string fileName = file.FileName;
                 string extension = fileName.Substring(fileName.Length - 3);
                 string pic = titolo + "_img." + extension;

@@ -60,6 +60,43 @@ namespace Data
 
             return events;
         }
+        public IEnumerable<Event> GetLastFive()
+        {
+            List<Event> events = new List<Event>();
+
+            string query = @"SELECT top 5 [ID]
+                            ,[Data]
+                            ,[Titolo]
+                            ,[Testo]
+                            ,[UrlImmagine]
+                             FROM Eventi
+                             ORDER BY Data DESC";
+
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                using (var command = new SqlCommand(query, connection))
+                {
+                    {
+                        using (var reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                Event event_obj = new Event();
+                                event_obj.Id = reader.GetValue<int>("ID");
+                                event_obj.DataPubblicazione = reader.GetValue<string>("Data");
+                                event_obj.Titolo = reader.GetValue<string>("Titolo");
+                                event_obj.Testo = reader.GetValue<string>("Testo");
+                                event_obj.UrlFoto = reader.GetValue<string>("UrlImmagine");
+                                events.Add(event_obj);
+                            }
+                            return events;
+                        }
+                    }
+                }
+            }
+        }
         public Event Get(int id)
         {
             string query = @"SELECT 

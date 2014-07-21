@@ -59,6 +59,43 @@ namespace Data
 
             return news;
         }
+        public IEnumerable<News> GetLastFive()
+        {
+            List<News> news = new List<News>();
+
+            string query = @"SELECT top 5 [ID]
+                            ,[Data]
+                            ,[Titolo]
+                            ,[Testo]
+                            ,[UrlImmagine]
+                             FROM News
+                             ORDER BY Data DESC";
+
+            using (var connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+
+                using (var command = new SqlCommand(query, connection))
+                {
+                    {
+                        using (var reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                News newsObj = new News();
+                                newsObj.Id = reader.GetValue<int>("ID");
+                                newsObj.DataPubblicazione = reader.GetValue<string>("Data");
+                                newsObj.Titolo = reader.GetValue<string>("Titolo");
+                                newsObj.Testo = reader.GetValue<string>("Testo");
+                                newsObj.UrlFoto = reader.GetValue<string>("UrlImmagine");
+                                news.Add(newsObj);
+                            }
+                            return news;
+                        }
+                    }
+                }
+            }
+        }
         public News Get(int id)
         {
             string query = @"SELECT 

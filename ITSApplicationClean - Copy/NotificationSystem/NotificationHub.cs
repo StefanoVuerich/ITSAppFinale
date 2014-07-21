@@ -74,7 +74,9 @@ namespace NotificationSystem
         public static void Notification(string notification)
         {
             IHubContext hubContext = GlobalHost.ConnectionManager.GetHubContext<NotificationHub>();
+            var clients = hubContext.Clients.All;
             hubContext.Clients.All.broadcastNotification(notification);
+            
         }
         public void GetRedisNews(string lastClientReadedNews)
         {
