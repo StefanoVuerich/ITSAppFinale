@@ -43,3 +43,18 @@ C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplication
 C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\obj\Debug\Data.dll
 C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\obj\Debug\Data.pdb
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\Data.dll
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\Data.pdb
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\ObjectModel.dll
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Common.dll
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Interfaces.dll
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Redis.dll
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Text.dll
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\ObjectModel.pdb
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Common.xml
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Interfaces.xml
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Redis.xml
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Text.xml
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\obj\Debug\Data.dll
+C:\GIT REPOSITORIES\ITSAppFinale\ITSApplicationClean - Copy\Data\obj\Debug\Data.pdb

@@ -51,8 +51,8 @@ namespace ITSApplication.Controllers
         //
         // POST: /Account/Login
         [HttpPost]
-        [AllowAnonymous]
         [ValidateAntiForgeryToken]
+        [AllowAnonymous]
         public async Task<ActionResult> Login(LoginViewModel model, string returnUrl)
         {
             if (ModelState.IsValid)
@@ -75,7 +75,6 @@ namespace ITSApplication.Controllers
 
         //
         // GET: /Account/Register
-        [AllowAnonymous]
         public ActionResult Register()
         {
             return View();
@@ -84,7 +83,6 @@ namespace ITSApplication.Controllers
         //
         // POST: /Account/Register
         [HttpPost]
-        [AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Register(RegisterViewModel model)
         {
@@ -116,7 +114,6 @@ namespace ITSApplication.Controllers
 
         //
         // GET: /Account/ConfirmEmail
-        [AllowAnonymous]
         public async Task<ActionResult> ConfirmEmail(string userId, string code)
         {
             if (userId == null || code == null) 
@@ -138,7 +135,6 @@ namespace ITSApplication.Controllers
 
         //
         // GET: /Account/ForgotPassword
-        [AllowAnonymous]
         public ActionResult ForgotPassword()
         {
             return View();
@@ -388,7 +384,7 @@ namespace ITSApplication.Controllers
         //
         // POST: /Account/ExternalLoginConfirmation
         [HttpPost]
-        [AllowAnonymous]
+        //[AllowAnonymous]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> ExternalLoginConfirmation(ExternalLoginConfirmationViewModel model, string returnUrl)
         {
@@ -442,7 +438,7 @@ namespace ITSApplication.Controllers
 
         //
         // GET: /Account/ExternalLoginFailure
-        [AllowAnonymous]
+        //[AllowAnonymous]
         public ActionResult ExternalLoginFailure()
         {
             return View();
