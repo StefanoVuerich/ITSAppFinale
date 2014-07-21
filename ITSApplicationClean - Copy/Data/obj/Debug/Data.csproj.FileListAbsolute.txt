@@ -1,0 +1,45 @@
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\Data.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\Data.pdb
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\ObjectModel.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\ServiceStack.Common.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\ServiceStack.Redis.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\ServiceStack.Text.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\ObjectModel.pdb
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\ServiceStack.Common.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\ServiceStack.Redis.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\bin\Debug\ServiceStack.Text.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\obj\Debug\Data.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\Data\obj\Debug\Data.pdb
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\Data.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\Data.pdb
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ObjectModel.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Common.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Redis.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Text.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ObjectModel.pdb
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Common.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Redis.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Text.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\obj\Debug\Data.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\obj\Debug\Data.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\Data.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\Data.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ObjectModel.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Common.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Redis.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Text.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ObjectModel.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Common.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Redis.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\bin\Debug\ServiceStack.Text.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\obj\Debug\Data.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\Data\obj\Debug\Data.pdb

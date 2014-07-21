@@ -1,0 +1,15 @@
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\ObjectModel\bin\Release\ObjectModel.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\ObjectModel\bin\Release\ObjectModel.pdb
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\ObjectModel\obj\Release\ObjectModel.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\ObjectModel\obj\Release\ObjectModel.pdb
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\ObjectModel\obj\Release\ObjectModel.csprojResolveAssemblyReference.cache
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\bin\Release\ObjectModel.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\bin\Release\ObjectModel.pdb
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\obj\Release\ObjectModel.csprojResolveAssemblyReference.cache
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\obj\Release\ObjectModel.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\obj\Release\ObjectModel.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\bin\Release\ObjectModel.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\bin\Release\ObjectModel.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\obj\Release\ObjectModel.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\obj\Release\ObjectModel.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\obj\Release\ObjectModel.csprojResolveAssemblyReference.cache

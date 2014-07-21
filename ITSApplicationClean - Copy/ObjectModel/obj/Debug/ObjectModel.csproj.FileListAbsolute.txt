@@ -1,0 +1,12 @@
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\ObjectModel\bin\Debug\ObjectModel.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\ObjectModel\bin\Debug\ObjectModel.pdb
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\ObjectModel\obj\Debug\ObjectModel.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\ObjectModel\obj\Debug\ObjectModel.pdb
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\bin\Debug\ObjectModel.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\bin\Debug\ObjectModel.pdb
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\obj\Debug\ObjectModel.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\obj\Debug\ObjectModel.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\bin\Debug\ObjectModel.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\bin\Debug\ObjectModel.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\obj\Debug\ObjectModel.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\ObjectModel\obj\Debug\ObjectModel.pdb

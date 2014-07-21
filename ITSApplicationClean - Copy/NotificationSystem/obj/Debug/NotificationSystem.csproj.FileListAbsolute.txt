@@ -1,0 +1,108 @@
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\NotificationSystem.dll.config
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\NotificationSystem.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\NotificationSystem.pdb
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Data.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.Owin.Cors.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.Owin.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Newtonsoft.Json.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\ObjectModel.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Owin.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\System.Web.Cors.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\ServiceStack.Redis.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\ServiceStack.Interfaces.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\ServiceStack.Text.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\ServiceStack.Common.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Data.pdb
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\ObjectModel.pdb
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.Owin.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.Owin.Cors.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\Newtonsoft.Json.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\ServiceStack.Redis.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\ServiceStack.Interfaces.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\ServiceStack.Text.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\bin\ServiceStack.Common.xml
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\obj\Debug\NotificationSystem.csprojResolveAssemblyReference.cache
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\obj\Debug\NotificationSystem.dll
+C:\Users\stefano\documents\visual studio 2013\Projects\ITSApplicationClean\NotificationSystem\obj\Debug\NotificationSystem.pdb
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\NotificationSystem.dll.config
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\NotificationSystem.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\NotificationSystem.pdb
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Data.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Cors.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Newtonsoft.Json.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ObjectModel.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Owin.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\System.Web.Cors.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Redis.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Interfaces.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Text.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Common.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Data.pdb
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ObjectModel.pdb
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Cors.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Newtonsoft.Json.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Redis.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Interfaces.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Text.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Common.xml
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\obj\Debug\NotificationSystem.csprojResolveAssemblyReference.cache
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\obj\Debug\NotificationSystem.dll
+C:\Users\stefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\obj\Debug\NotificationSystem.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\NotificationSystem.dll.config
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\NotificationSystem.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\NotificationSystem.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Data.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Cors.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Security.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Newtonsoft.Json.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ObjectModel.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Owin.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\System.Web.Cors.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Redis.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Interfaces.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Text.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Common.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Data.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ObjectModel.pdb
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Cors.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Microsoft.Owin.Security.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\Newtonsoft.Json.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Redis.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Interfaces.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Text.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\bin\ServiceStack.Common.xml
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\obj\Debug\NotificationSystem.csprojResolveAssemblyReference.cache
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\obj\Debug\NotificationSystem.dll
+C:\Users\stefano.ITSStefano\Documents\Visual Studio 2013\Projects\ITSApplicationClean - Copy\NotificationSystem\obj\Debug\NotificationSystem.pdb
