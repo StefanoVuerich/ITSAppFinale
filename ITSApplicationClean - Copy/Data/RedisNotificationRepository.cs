@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ObjectModel;
 using ServiceStack.Redis;
+using System.Diagnostics;
 
 namespace Data
 {
@@ -55,9 +56,19 @@ namespace Data
             {
                 var client = redis.As<string>();
                 List<string> allNotification = client.Lists["NotificationList"].ToList();
+                Debug.Assert(allNotification.Count >= 5, "Inserire almeno cinque news.");
                 List<string> unreceivedNotification;
 
-                if (lastReceivedNotification == "")
+                if (lastReceivedNotification == "" || allNotification.IndexOf(lastReceivedNotification) == allNotification.Count - 1)
+                {
+                    unreceivedNotification = new List<string>();
+                    for (int x = allNotification.Count - 5; x < allNotification.Count ; x++)
+                    {
+                        unreceivedNotification.Add(allNotification[x]);
+                    }
+                    return unreceivedNotification;
+                }
+                else if ((allNotification.Count -1 )  - allNotification.IndexOf(lastReceivedNotification) < 5)
                 {
                     unreceivedNotification = new List<string>();
                     for (int x = allNotification.Count - 5; x < allNotification.Count; x++)
@@ -65,7 +76,8 @@ namespace Data
                         unreceivedNotification.Add(allNotification[x]);
                     }
                     return unreceivedNotification;
-                } else
+                }
+                else
                 {
                     unreceivedNotification = new List<string>();
                     int index = allNotification.IndexOf(lastReceivedNotification);

@@ -187,17 +187,17 @@ namespace Data
                                        ,[DataEvento] = @DataEvento
                                        ,[Titolo] = @Titolo
                                        ,[Testo] = @Testo
-                                       ,[UrlImmagine] = @[UrlImmagine]
+                                       ,[UrlImmagine] = @UrlImmagine
                                  WHERE ID = @Id";
 
                 using (var command = new SqlCommand(query, connection))
                 {
-                    command.Parameters.Add(SqlHelper.CreateParameter("Id", event_obj.Id));
-                    command.Parameters.Add(SqlHelper.CreateParameter("Data", event_obj.DataPubblicazione));
-                    command.Parameters.Add(SqlHelper.CreateParameter("DataEvento", "01/01/01"));
-                    command.Parameters.Add(SqlHelper.CreateParameter("Titolo", event_obj.Titolo));
-                    command.Parameters.Add(SqlHelper.CreateParameter("Testo", event_obj.Testo));
-                    command.Parameters.Add(SqlHelper.CreateParameter("UrlImmagine", event_obj.UrlFoto));
+                    command.Parameters.Add(new SqlParameter("@Id", event_obj.Id));
+                    command.Parameters.Add(new SqlParameter("@Data", event_obj.DataPubblicazione));
+                    command.Parameters.Add(new SqlParameter("@DataEvento", "25/04/1987"));
+                    command.Parameters.Add(new SqlParameter("@Titolo", event_obj.Titolo));
+                    command.Parameters.Add(new SqlParameter("@Testo", event_obj.Testo));
+                    command.Parameters.Add(new SqlParameter("@UrlImmagine", event_obj.UrlFoto));
 
                     int affectedRows = command.ExecuteNonQuery();
 
@@ -239,6 +239,7 @@ namespace Data
 
                 string query = @"SELECT [ID]
                                 ,[Data]
+                                ,[DataEvento]
                                 ,[Titolo]
                                 ,[Testo]
                                 ,[UrlImmagine]
@@ -257,6 +258,7 @@ namespace Data
                             Event event_obj = new Event();
                             event_obj.Id = reader.GetValue<int>("ID");
                             event_obj.DataPubblicazione = reader.GetValue<string>("Data");
+                            event_obj.DataEvento = reader.GetValue<string>("DataEvento");
                             event_obj.Titolo = reader.GetValue<string>("Titolo");
                             event_obj.Testo = reader.GetValue<string>("Testo");
                             event_obj.UrlFoto = reader.GetValue<string>("UrlImmagine");

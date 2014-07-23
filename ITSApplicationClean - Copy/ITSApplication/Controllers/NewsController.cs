@@ -57,11 +57,13 @@ namespace ITSApplication.Controllers
         public void Delete(int id)
         {
             News news = sqlNewsRepository.Get(id);
+            string image = news.Titolo + "_img.jpeg";
             if(news == null)
             {
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }
             sqlNewsRepository.Delete(id);
+            ImageController.DeleteImage(image);
         }
     }
 }

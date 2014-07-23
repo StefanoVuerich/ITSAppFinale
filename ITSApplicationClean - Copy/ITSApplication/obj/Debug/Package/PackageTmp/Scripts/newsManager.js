@@ -14,6 +14,7 @@
             for (var news_obj in data) {
 
                 var testo = data[news_obj].Testo;
+                var preTesto = testo.substring(0, 500);
                 var foto = data[news_obj].UrlFoto;
 
                 if (foto = "") {
@@ -26,7 +27,8 @@
                                 + "<td class='id'>" + data[news_obj].Id + "</td>"
                                 + "<td class='data'>" + data[news_obj].DataPubblicazione + "</td>"
                                 + "<td class='titolo'><b>" + data[news_obj].Titolo + "</b></td>"
-                                + "<td>" + foto  + "</td>"
+                                 + "<td>" + preTesto + "</td>"
+                                + "<td>" + foto + "</td>"
                                 + "<td><span class='glyphicon glyphicon-edit editNews'></span><br/><span class='glyphicon glyphicon-trash deleteNews'></span></td>"
                                 + "</tr>";
                 $('#listaNews').prepend(newsObj);

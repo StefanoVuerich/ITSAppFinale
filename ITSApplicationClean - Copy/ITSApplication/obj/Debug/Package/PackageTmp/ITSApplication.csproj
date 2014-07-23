@@ -244,6 +244,7 @@
     <Compile Include="Controllers\EventsController.cs" />
     <Compile Include="Controllers\FormController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ImageController.cs" />
     <Compile Include="Controllers\ManagerController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Controllers\RedisController.cs" />
@@ -372,10 +373,12 @@
     <Content Include="Views\Manager\NewsManager.cshtml" />
     <Content Include="Views\Manager\EventManager.cshtml" />
     <None Include="Service References\ServiceReference1\ImageUploader.wsdl" />
+    <Content Include="Views\Form\EditEntity.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="images\article\" />
     <Folder Include="images\profile\" />
-    <Folder Include="Views\Form\" />
+    <Folder Include="Views\Image\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

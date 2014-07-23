@@ -43,9 +43,9 @@ namespace ITSApplication.Controllers
             var response = Request.CreateResponse<Event>(HttpStatusCode.Created, eventObj);
             return response;
         }
-        public void Put(int id, Event event_obj)
+        public void Put(Event event_obj)
         {
-            event_obj.Id = id;
+            //event_obj.Id = id;
             if (!sqlEventsRepository.Put(event_obj))
             {
                 throw new HttpResponseException(HttpStatusCode.NotFound);
@@ -55,11 +55,13 @@ namespace ITSApplication.Controllers
         public void Delete(int id)
         {
             Event event_obj = sqlEventsRepository.Get(id);
+            string image = event_obj.Titolo + "_img.jpeg";
             if(event_obj == null)
             {
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }
             sqlEventsRepository.Delete(id);
+            ImageController.DeleteImage(image);
         }
     }
 }

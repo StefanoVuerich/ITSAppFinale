@@ -13,19 +13,21 @@
         success: function (data) {
 
             for (var event_Obj in data) {
-
-                var eventObj = new Object();
-                eventObj.id = data[event_Obj].Id;
-                eventObj.data = data[event_Obj].DataPubblicazione;
-                eventObj.titolo = data[event_Obj].Titolo;
-                eventObj.testo = data[event_Obj].Testo;
-                eventObj.foto = data[event_Obj].UrlFoto;
+                var testo = data[event_Obj].Testo;
+                var preTesto = testo.substring(0, 500);
+                var foto = data[event_Obj].UrlFoto;
+                if (foto = "") {
+                    foto = "";
+                } else {
+                    foto = "<img src='" + data[event_Obj].UrlFoto + "' class='image' style='width:150px; height:auto;' />"
+                }
 
                 var eventObjLine = "<tr>"
-                                + "<td class='id'>" + eventObj.id + "</td>"
-                                + "<td><b>" + eventObj.titolo + "</b></td>"
-                                + "<td>" + eventObj.data + "</td>"
-                                + "<td><img src='" + eventObj.foto + "' class='image' style='width:150px; height:auto;' /></td>"
+                                + "<td class='id'>" + data[event_Obj].Id + "</td>"
+                                + "<td>" + data[event_Obj].DataPubblicazione + "</td>"
+                                + "<td><b>" + data[event_Obj].Titolo + "</b></td>"
+                                + "<td>" + preTesto + "</td>"
+                                + "<td>" + foto + "</td>"
                                 + "<td><span class='glyphicon glyphicon-edit editEvent'></span><br/><span class='glyphicon glyphicon-trash deleteEvent'></span</td>"
                                 + "</tr>";
 
@@ -83,29 +85,47 @@
                             obj.Titolo = $('#titolo').val();
                             obj.Testo = $('#testo').val();
                             obj.UrlFoto = "";
+
+                            var formdata = new FormData();
+                            //var image = document.getElementById('file');
+                            var fileInput = document.getElementById('file');
+                            //Iterating through each files selected in fileInput
+                            for (i = 0; i < fileInput.files.length; i++) {
+                                //Appending each file to FormData object
+                                formdata.append(obj.Titolo, fileInput.files[i]);
+                            }
+
+                            //formdata.append(image.files.name, image.files);
+
                             if ($('#file').val() == "") {
                                 obj.UrlFoto = data.UrlFoto;
                             } else {
-                                obj.UrlFoto = $('#file').val();
-                            }
-
-                            $.ajax({
-                                type: 'PUT',
-                                url: '../ITSAppFinale/api/events',
-                                data: JSON.stringify(obj),
-                                contentType: 'application/json; charset=utf-8',
-                                dataType: 'json',
-                                processData: true,
-                                success: function (obj, status, jqXHR) {
-                                    //alert('success...' + data);
-                                    myModal.modal('hide');
-                                    location.reload();
-                                },
-                                error: function (xhr) {
-                                    alert(xhr.responseText);
+                                obj.UrlFoto = data.UrlFoto;
+                                var xhr = new XMLHttpRequest();
+                                xhr.open('PUT', '/Form/EditEntity');
+                                xhr.send(formdata);
+                                xhr.onreadystatechange = function () {
+                                    if (xhr.readyState == 4 && xhr.status == 200) {
+                                        alert(xhr.responseText);
+                                        $.ajax({
+                                            type: 'PUT',
+                                            url: '../api/events/',
+                                            data: JSON.stringify(obj),
+                                            contentType: 'application/json; charset=utf-8',
+                                            dataType: 'json',
+                                            processData: true,
+                                            success: function (obj, status, jqXHR) {
+                                                //alert('success...' + data);
+                                                myModal.modal('hide');
+                                                location.reload();
+                                            },
+                                            error: function (xhr) {
+                                                alert(xhr.responseText);
+                                            }
+                                        });
+                                    }
                                 }
-                            });
-
+                            }
                         });
 
                     },

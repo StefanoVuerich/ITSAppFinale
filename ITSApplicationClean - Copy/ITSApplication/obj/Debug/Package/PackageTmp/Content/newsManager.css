@@ -8,7 +8,9 @@
     border-radius: 5px;
     cursor:pointer;
 }
-
 .deleteNews {
+    cursor:pointer;
+}
+.image {
     cursor:pointer;
 }
