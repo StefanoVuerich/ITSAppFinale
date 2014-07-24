@@ -1,7 +1,14 @@
 ﻿$(function () {
     var myModal = $('#createNewModal');
     $('#createNewArticle').on('click', function () {
+        $('#dataEvento').val("");
+        $('#titolo').val("");
+        $('#testo').val("");
+        $('#file').val("");
+        $('#previewHolder').attr('src','');
+        $('#save').val("Pubblica Evento");
         myModal.modal();
+        $('#sandbox-container input').datepicker({});
         $('#file').change(function () {
             readURL(this);
         });
@@ -11,7 +18,6 @@
         type: 'GET',
         datatype: "json",
         success: function (data) {
-
             for (var event_Obj in data) {
                 var testo = data[event_Obj].Testo;
                 var preTesto = testo.substring(0, 500);
@@ -21,16 +27,15 @@
                 } else {
                     foto = "<img src='" + data[event_Obj].UrlFoto + "' class='image' style='width:150px; height:auto;' />"
                 }
-
-                var eventObjLine = "<tr>"
+                var eventObjLine = "<tr class='editEvent'>"
                                 + "<td class='id'>" + data[event_Obj].Id + "</td>"
                                 + "<td>" + data[event_Obj].DataPubblicazione + "</td>"
+                                + "<td>" + data[event_Obj].DataEvento + "</td>"
                                 + "<td><b>" + data[event_Obj].Titolo + "</b></td>"
                                 + "<td>" + preTesto + "</td>"
                                 + "<td>" + foto + "</td>"
-                                + "<td><span class='glyphicon glyphicon-edit editEvent'></span><br/><span class='glyphicon glyphicon-trash deleteEvent'></span</td>"
+                                + "<td><span class='glyphicon glyphicon-trash deleteEvent'></span</td>"
                                 + "</tr>";
-
                 $('#listaEvents').prepend(eventObjLine);
             }
             $('.image').on('click', function () {
@@ -38,18 +43,14 @@
                 $('#imageModal').modal();
                 $('#image').attr('src', obj.attr('src'));
             });
-
             $('.deleteEvent').on('click', function () {
-
                 var obj = $(this);
                 var id = obj.parent().siblings('.id').text();
-
                 $.ajax({
                     type: 'DELETE',
                     url: '../api/events/del/' + id,
                     contentType: 'json',
                     dataType: 'json',
-
                     success: function (data) {
                         console.log("dato cancellato");
                         obj.parent().parent('tr').remove();
@@ -59,9 +60,8 @@
                     }
                 });
             });
-
             $('.editEvent').on('click', function () {
-                var id = $(this).parent().siblings('.id').text();
+                var id = $(this).children('.id').text();
                 $.ajax({
                     type: 'GET',
                     url: '../api/event/' + id,
@@ -69,7 +69,10 @@
                     dataType: 'json',
                     success: function (data) {
 
+                        $('#save').val("Aggiorna");
                         myModal.modal();
+                        $('#sandbox-container input').datepicker({});
+                        $('#dataEvento').val(data.DataEvento);
                         $('#titolo').val(data.Titolo);
                         $('#testo').val(data.Testo);
                         $('#previewHolder').attr('src', data.UrlFoto);
@@ -82,57 +85,55 @@
                             var obj = new Object();
                             obj.Id = data.Id;
                             obj.DataPubblicazione = data.DataPubblicazione;
+                            obj.DataEvento = $('#dataEvento').val();
                             obj.Titolo = $('#titolo').val();
                             obj.Testo = $('#testo').val();
-                            obj.UrlFoto = "";
 
+                            var url = data.UrlFoto;
+                            var taglio = url.lastIndexOf("/");
+                            obj.UrlFoto = url.substring(0, taglio + 1) + obj.Titolo + "_img.jpeg";
+
+                            var vecchiaImmagine = data.Titolo + "_img.jpeg";
+                            var nuovaImmagine = obj.Titolo + "_img.jpeg"
+
+                            var urlVecchioENuovo = "$" + data.UrlFoto + "$" + obj.UrlFoto;
+                            var titoloVecchioENuovo = "$" + vecchiaImmagine + "$" + nuovaImmagine;
+                             
                             var formdata = new FormData();
-                            //var image = document.getElementById('file');
                             var fileInput = document.getElementById('file');
-                            //Iterating through each files selected in fileInput
                             for (i = 0; i < fileInput.files.length; i++) {
-                                //Appending each file to FormData object
-                                formdata.append(obj.Titolo, fileInput.files[i]);
+                                formdata.append(titoloVecchioENuovo, fileInput.files[i]);
                             }
 
-                            //formdata.append(image.files.name, image.files);
-
-                            if ($('#file').val() == "") {
-                                obj.UrlFoto = data.UrlFoto;
-                            } else {
-                                obj.UrlFoto = data.UrlFoto;
-                                var xhr = new XMLHttpRequest();
-                                xhr.open('PUT', '/Form/EditEntity');
-                                xhr.send(formdata);
-                                xhr.onreadystatechange = function () {
-                                    if (xhr.readyState == 4 && xhr.status == 200) {
-                                        alert(xhr.responseText);
-                                        $.ajax({
-                                            type: 'PUT',
-                                            url: '../api/events/',
-                                            data: JSON.stringify(obj),
-                                            contentType: 'application/json; charset=utf-8',
-                                            dataType: 'json',
-                                            processData: true,
-                                            success: function (obj, status, jqXHR) {
-                                                //alert('success...' + data);
-                                                myModal.modal('hide');
-                                                location.reload();
-                                            },
-                                            error: function (xhr) {
-                                                alert(xhr.responseText);
-                                            }
-                                        });
-                                    }
+                            var xhr = new XMLHttpRequest();
+                            xhr.open('PUT', '/Form/EditEntity');
+                            xhr.send(formdata);
+                            xhr.onreadystatechange = function () {
+                                if (xhr.readyState == 4 && xhr.status == 200) {
+                                    alert(xhr.responseText);
+                                    $.ajax({
+                                        type: 'PUT',
+                                        url: '../api/events/',
+                                        data: JSON.stringify(obj),
+                                        contentType: 'application/json; charset=utf-8',
+                                        dataType: 'json',
+                                        processData: true,
+                                        success: function (obj, status, jqXHR) {
+                                            myModal.modal('hide');
+                                            location.reload();
+                                        },
+                                        error: function (xhr) { 
+                                            alert(xhr.responseText);
+                                        }
+                                    });
                                 }
+
                             }
                         });
-
                     },
                     error: function (xhr) { }
                 });
             });
-
         }, error: function (data) {
             console.log('Error in Operation');
         }
@@ -145,7 +146,6 @@
         $('#previewHolder').attr('src', '');
     });
 });
-
 function readURL(input) {
     if (input.files && input.files[0]) {
         var reader = new FileReader();

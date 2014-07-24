@@ -56,27 +56,35 @@ namespace Data
             {
                 var client = redis.As<string>();
                 List<string> allNotification = client.Lists["NotificationList"].ToList();
-                Debug.Assert(allNotification.Count >= 5, "Inserire almeno cinque news.");
+                int notificationCount = allNotification.Count;
+                int notificheDaInviare = notificationCount;
+                if (notificationCount >= 5)
+                {
+                    notificheDaInviare = 5;
+                }
+                Debug.Assert(notificationCount >= notificheDaInviare, "Le notifiche da iviare superano le notifiche totali");
                 List<string> unreceivedNotification;
-
+                // caso in cui la stringa di notifiche ricevute è vuota oppure le notifiche ricevute sono pari alle notifiche totali
                 if (lastReceivedNotification == "" || allNotification.IndexOf(lastReceivedNotification) == allNotification.Count - 1)
                 {
                     unreceivedNotification = new List<string>();
-                    for (int x = allNotification.Count - 5; x < allNotification.Count ; x++)
+                    for (int x = notificationCount - notificheDaInviare; x < notificationCount ; x++)
                     {
                         unreceivedNotification.Add(allNotification[x]);
                     }
                     return unreceivedNotification;
                 }
-                else if ((allNotification.Count -1 )  - allNotification.IndexOf(lastReceivedNotification) < 5)
+                // caso in cui sono state immesse meno di x(5) notifiche dall'ultimo accesso
+                else if ((allNotification.Count - 1) - allNotification.IndexOf(lastReceivedNotification) < notificationCount)
                 {
                     unreceivedNotification = new List<string>();
-                    for (int x = allNotification.Count - 5; x < allNotification.Count; x++)
+                    for (int x = notificationCount - notificationCount; x < allNotification.Count; x++)
                     {
                         unreceivedNotification.Add(allNotification[x]);
                     }
                     return unreceivedNotification;
                 }
+                // caso in cui vengono inviate tutte le notifiche, dall'ultima ricevuta fino al count
                 else
                 {
                     unreceivedNotification = new List<string>();

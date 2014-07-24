@@ -33,6 +33,7 @@ namespace Data
 
                 string query = @"SELECT [ID]
                                 ,[Data]
+                                ,[DataEvento]
                                 ,[Titolo]
                                 ,[Testo]
                                 ,[UrlImmagine]
@@ -48,6 +49,7 @@ namespace Data
                             Event event_obj = new Event();
                             event_obj.Id = reader.GetValue<int>("ID");
                             event_obj.DataPubblicazione = reader.GetValue<string>("Data");
+                            event_obj.DataEvento = reader.GetValue<string>("DataEvento");
                             event_obj.Titolo = reader.GetValue<string>("Titolo");
                             event_obj.Testo = reader.GetValue<string>("Testo");
                             event_obj.UrlFoto = reader.GetValue<string>("UrlImmagine");
@@ -66,6 +68,7 @@ namespace Data
 
             string query = @"SELECT top 5 [ID]
                             ,[Data]
+                            ,[DataEvento]
                             ,[Titolo]
                             ,[Testo]
                             ,[UrlImmagine]
@@ -86,6 +89,7 @@ namespace Data
                                 Event event_obj = new Event();
                                 event_obj.Id = reader.GetValue<int>("ID");
                                 event_obj.DataPubblicazione = reader.GetValue<string>("Data");
+                                event_obj.DataEvento = reader.GetValue<string>("DataEvento");
                                 event_obj.Titolo = reader.GetValue<string>("Titolo");
                                 event_obj.Testo = reader.GetValue<string>("Testo");
                                 event_obj.UrlFoto = reader.GetValue<string>("UrlImmagine");
@@ -102,6 +106,7 @@ namespace Data
             string query = @"SELECT 
                                 ID,
                                 Data,
+                                DataEvento,
                                 Titolo,
                                 Testo,
                                 UrlImmagine
@@ -124,6 +129,7 @@ namespace Data
                                 Event event_obj = new Event();
                                 event_obj.Id = reader.GetValue<int>("ID");
                                 event_obj.DataPubblicazione = reader.GetValue<string>("Data");
+                                event_obj.DataEvento = reader.GetValue<string>("DataEvento");
                                 event_obj.Titolo = reader.GetValue<string>("Titolo");
                                 event_obj.Testo = reader.GetValue<string>("Testo");
                                 event_obj.UrlFoto = reader.GetValue<string>("UrlImmagine");
@@ -159,7 +165,7 @@ namespace Data
                 using (var command = new SqlCommand(query, connection))
                 {
                     command.Parameters.Add(new SqlParameter("@Data", Date.getDate()));
-                    command.Parameters.Add(new SqlParameter("@DataEvento", "01/01/01"));
+                    command.Parameters.Add(new SqlParameter("@DataEvento", eventObj.DataEvento));
                     command.Parameters.Add(new SqlParameter("@Titolo", eventObj.Titolo));
                     command.Parameters.Add(new SqlParameter("@Testo", eventObj.Testo));
                     command.Parameters.Add(new SqlParameter("@UrlImmagine", eventObj.UrlFoto));
@@ -194,7 +200,7 @@ namespace Data
                 {
                     command.Parameters.Add(new SqlParameter("@Id", event_obj.Id));
                     command.Parameters.Add(new SqlParameter("@Data", event_obj.DataPubblicazione));
-                    command.Parameters.Add(new SqlParameter("@DataEvento", "25/04/1987"));
+                    command.Parameters.Add(new SqlParameter("@DataEvento", event_obj.DataEvento));
                     command.Parameters.Add(new SqlParameter("@Titolo", event_obj.Titolo));
                     command.Parameters.Add(new SqlParameter("@Testo", event_obj.Testo));
                     command.Parameters.Add(new SqlParameter("@UrlImmagine", event_obj.UrlFoto));

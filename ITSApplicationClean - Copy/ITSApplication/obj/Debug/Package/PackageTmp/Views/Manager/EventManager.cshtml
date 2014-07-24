@@ -18,6 +18,7 @@
                     <tr>
                         <th>ID</th>
                         <th>Data</th>
+                        <th>Data Evento</th>
                         <th>Titolo</th>
                         <th>Testo</th>
                         <th>Image</th>
@@ -41,6 +42,13 @@
                 <div class="panel-body">
                     @using (Html.BeginForm("FormHandler", "Form", FormMethod.Post, new { enctype = "multipart/form-data" }))
                     {
+                        <div class="form-group">
+                            <label for="titolo" class="col-sm-2 control-label">Data Evento</label>
+                            <div class="col-sm-10" id="sandbox-container">
+                                <input type="text" class="form-control" id="dataEvento" name="dataEvento" placeholder="Data Evento" style="max-width:100%;">
+                            </div>
+                        </div>
+                        <div class="clearfix"><br /></div>
                         <div class="form-group">
                             <label for="titolo" class="col-sm-2 control-label">Titolo</label>
                             <div class="col-sm-10">
@@ -83,9 +91,17 @@
         </div>
     </div>
 </div>
-
+@section scripts {
 <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/moment.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+<script src="~/Scripts/bootstrap-datepicker.js"></script>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<link href="~/Content/bootstrap-datepicker3.css" rel="stylesheet" />
 <script src="~/Scripts/eventsManager.js"></script>
+}
+
+
 
 
 
