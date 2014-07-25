@@ -191,10 +191,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/21/2014 10:41:12</publishTime>
     </File>
     <File Include="bin/Data.dll">
-      <publishTime>07/24/2014 17:51:21</publishTime>
+      <publishTime>07/25/2014 12:13:23</publishTime>
     </File>
     <File Include="bin/Data.pdb">
-      <publishTime>07/24/2014 17:51:21</publishTime>
+      <publishTime>07/25/2014 12:13:23</publishTime>
     </File>
     <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
       <publishTime>07/10/2014 16:08:21</publishTime>
@@ -239,10 +239,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/10/2014 16:08:20</publishTime>
     </File>
     <File Include="bin/ITSApplication.dll">
-      <publishTime>07/24/2014 17:51:23</publishTime>
+      <publishTime>07/25/2014 12:13:24</publishTime>
     </File>
     <File Include="bin/ITSApplication.pdb">
-      <publishTime>07/24/2014 17:51:23</publishTime>
+      <publishTime>07/25/2014 12:13:24</publishTime>
     </File>
     <File Include="bin/ITSApplication.XML">
       <publishTime>07/18/2014 10:19:22</publishTime>
@@ -323,16 +323,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/04/2014 11:29:23</publishTime>
     </File>
     <File Include="bin/NotificationSystem.dll">
-      <publishTime>07/24/2014 17:51:22</publishTime>
+      <publishTime>07/25/2014 12:13:23</publishTime>
     </File>
     <File Include="bin/NotificationSystem.pdb">
-      <publishTime>07/24/2014 17:51:22</publishTime>
+      <publishTime>07/25/2014 12:13:23</publishTime>
     </File>
     <File Include="bin/ObjectModel.dll">
-      <publishTime>07/24/2014 17:51:21</publishTime>
+      <publishTime>07/25/2014 12:13:22</publishTime>
     </File>
     <File Include="bin/ObjectModel.pdb">
-      <publishTime>07/24/2014 17:51:21</publishTime>
+      <publishTime>07/25/2014 12:13:22</publishTime>
     </File>
     <File Include="bin/Owin.dll">
       <publishTime>07/04/2014 11:29:39</publishTime>
@@ -586,6 +586,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Controllers/AccountController.cs">
       <publishTime>07/21/2014 12:51:16</publishTime>
     </File>
+    <File Include="Controllers/EmailController.cs">
+      <publishTime>07/25/2014 10:53:54</publishTime>
+    </File>
     <File Include="Controllers/EventsController.cs">
       <publishTime>07/23/2014 17:55:08</publishTime>
     </File>
@@ -605,7 +608,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/23/2014 17:19:46</publishTime>
     </File>
     <File Include="Controllers/NewsletterController.cs">
-      <publishTime>07/24/2014 12:59:25</publishTime>
+      <publishTime>07/25/2014 12:13:16</publishTime>
     </File>
     <File Include="Controllers/RedisController.cs">
       <publishTime>07/14/2014 09:36:48</publishTime>
@@ -647,10 +650,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/18/2014 23:15:58</publishTime>
     </File>
     <File Include="ITSApplication.csproj">
-      <publishTime>07/24/2014 14:14:50</publishTime>
+      <publishTime>07/25/2014 09:22:31</publishTime>
     </File>
     <File Include="ITSApplication.csproj.user">
-      <publishTime>07/24/2014 14:14:50</publishTime>
+      <publishTime>07/25/2014 09:22:31</publishTime>
     </File>
     <File Include="ITSStartup.cs">
       <publishTime>07/15/2014 17:22:48</publishTime>
@@ -1010,7 +1013,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/04/2014 11:38:42</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/24/2014 17:51:30</publishTime>
+      <publishTime>07/25/2014 12:13:32</publishTime>
     </File>
     <File Include="Web.Debug.config">
       <publishTime>07/04/2014 11:38:42</publishTime>

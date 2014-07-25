@@ -1,20 +1,18 @@
-﻿using System;
+﻿using Data;
+using ObjectModel;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Cors;
-using Data;
-using ObjectModel;
 
 namespace ITSApplication.Controllers
 {
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class SearchController : ApiController
     {
-        SQLEventsRepository eventRepository = new SQLEventsRepository();
-        SQLNewsRepository newsRepository = new SQLNewsRepository();
+        private SQLEventsRepository eventRepository = new SQLEventsRepository();
+        private SQLNewsRepository newsRepository = new SQLNewsRepository();
+
         // GET: api/Search
         [Route("search/{keyWord}")]
         public IEnumerable<Article> Get(string keyWord)

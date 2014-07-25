@@ -1,9 +1,6 @@
-﻿using System;
+﻿using ObjectModel;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ObjectModel;
 using System.Configuration;
 using System.Data.SqlClient;
 
@@ -11,11 +8,13 @@ namespace Data
 {
     public class SQLNewsRepository : IRepository<News>
     {
-        string connectionString;
+        private string connectionString;
+
         public SQLNewsRepository()
             : this("virtualMachineCS")
         {
         }
+
         public SQLNewsRepository(string connectionStringName)
         {
             var cs = ConfigurationManager.ConnectionStrings[connectionStringName];
@@ -23,6 +22,7 @@ namespace Data
                 throw new ApplicationException(string.Format("ConnectionString '{0}' not found", connectionStringName));
             connectionString = cs.ConnectionString;
         }
+
         public IEnumerable<News> GetAll()
         {
             List<News> news = new List<News>();
@@ -59,6 +59,7 @@ namespace Data
 
             return news;
         }
+
         public IEnumerable<News> GetLastFive()
         {
             List<News> news = new List<News>();
@@ -96,9 +97,10 @@ namespace Data
                 }
             }
         }
+
         public News Get(int id)
         {
-            string query = @"SELECT 
+            string query = @"SELECT
                                 ID,
                                 Data,
                                 Titolo,
@@ -135,6 +137,7 @@ namespace Data
                 }
             }
         }
+
         public int Post(News news)
         {
             using (var connection = new SqlConnection(connectionString))
@@ -172,6 +175,7 @@ namespace Data
                 }
             }
         }
+
         public bool Put(News news)
         {
             using (var connection = new SqlConnection(connectionString))
@@ -203,6 +207,7 @@ namespace Data
                 }
             }
         }
+
         public void Delete(int id)
         {
             using (var connection = new SqlConnection(connectionString))
@@ -223,6 +228,7 @@ namespace Data
                 RedisNotificationRepository.Delete("News_id_" + id);
             }
         }
+
         public IEnumerable<News> Search(string keyWord)
         {
             List<News> searched_news = new List<News>();

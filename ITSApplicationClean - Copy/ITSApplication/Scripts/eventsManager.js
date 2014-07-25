@@ -68,7 +68,6 @@
                     contentType: 'json',
                     dataType: 'json',
                     success: function (data) {
-
                         $('#save').val("Aggiorna");
                         myModal.modal();
                         $('#sandbox-container input').datepicker({});
@@ -98,7 +97,7 @@
 
                             var urlVecchioENuovo = "$" + data.UrlFoto + "$" + obj.UrlFoto;
                             var titoloVecchioENuovo = "$" + vecchiaImmagine + "$" + nuovaImmagine;
-                             
+
                             var formdata = new FormData();
                             var fileInput = document.getElementById('file');
                             for (i = 0; i < fileInput.files.length; i++) {
@@ -122,12 +121,11 @@
                                             myModal.modal('hide');
                                             location.reload();
                                         },
-                                        error: function (xhr) { 
+                                        error: function (xhr) {
                                             alert(xhr.responseText);
                                         }
                                     });
                                 }
-
                             }
                         });
                     },

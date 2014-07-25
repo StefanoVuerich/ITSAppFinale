@@ -1,8 +1,8 @@
+using ITSApplication.Areas.HelpPage.ModelDescriptions;
+using ITSApplication.Areas.HelpPage.Models;
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using ITSApplication.Areas.HelpPage.ModelDescriptions;
-using ITSApplication.Areas.HelpPage.Models;
 
 namespace ITSApplication.Areas.HelpPage.Controllers
 {

@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Data;
+using NotificationSystem;
+using ObjectModel;
+using System;
 using System.Web;
 using System.Web.Mvc;
-using Data;
-using ObjectModel;
-using NotificationSystem;
 
 namespace ITSApplication.Controllers
 {
@@ -56,6 +54,7 @@ namespace ITSApplication.Controllers
             }
             return null;
         }
+
         [HttpPut]
         [Route("api/editentity/{article}")]
         public ActionResult EditEntity()
@@ -76,6 +75,7 @@ namespace ITSApplication.Controllers
             }
             return RedirectToAction("EventManager", "Manager");
         }
+
         public bool Notificate(string notification)
         {
             try

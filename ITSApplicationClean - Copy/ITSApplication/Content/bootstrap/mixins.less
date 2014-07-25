@@ -2,7 +2,6 @@
 // Mixins
 // --------------------------------------------------
 
-
 // Utilities
 // -------------------------
 
@@ -77,8 +76,6 @@
   background-color: transparent;
   border: 0;
 }
-
-
 
 // CSS3 PROPERTIES
 // --------------------------------------------------
@@ -214,13 +211,10 @@
   filter: ~"alpha(opacity=@{opacity-ie})";
 }
 
-
-
 // GRADIENTS
 // --------------------------------------------------
 
 #gradient {
-
   // Horizontal gradient, from left to right
   //
   // Creates two color stops, start and end, by specifying a color and position for each color stop.
@@ -292,8 +286,6 @@
   filter: e(%("progid:DXImageTransform.Microsoft.gradient(enabled = false)"));
 }
 
-
-
 // Retina images
 //
 // Short retina mixin for setting background-image and -size
@@ -313,7 +305,6 @@
   }
 }
 
-
 // Responsive image
 //
 // Keep images from scaling beyond the width of their parents.
@@ -323,7 +314,6 @@
   max-width: 100%; // Part 1: Set a maximum relative to the parent
   height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
 }
-
 
 // COMPONENT MIXINS
 // --------------------------------------------------
@@ -646,7 +636,6 @@
     right: percentage((@columns / @grid-columns));
   }
 }
-
 
 // Form validation states
 //

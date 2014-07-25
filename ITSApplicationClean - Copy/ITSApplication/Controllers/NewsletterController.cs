@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using Data;
+using ObjectModel;
 using System.Net;
 using System.Net.Http;
+using System.Text.RegularExpressions;
 using System.Web.Http;
 
 namespace ITSApplication.Controllers
@@ -10,10 +10,31 @@ namespace ITSApplication.Controllers
     [AllowAnonymous]
     public class NewsletterController : ApiController
     {
-        [Route("newletter")]
-        public bool Post(string email)
+        private NewsletterRepository _rep = new NewsletterRepository();
+
+        [HttpPost]
+        [Route("newsletter")]
+        public HttpResponseMessage Post(NewsletterEmail emailAdress)
         {
-            return true;
+            bool isEmail = Regex.IsMatch(emailAdress.EmailAdress.Trim(), @"\A(?:[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[A-Za-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?\.)+[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?)\Z");
+
+            if (isEmail)
+            {
+                bool isInserted = _rep.Post(emailAdress.EmailAdress);
+
+                if (isInserted)
+                {
+                    return new HttpResponseMessage(HttpStatusCode.OK);
+                }
+                else
+                {
+                    return new HttpResponseMessage(HttpStatusCode.InternalServerError);
+                }
+            }
+            else
+            {
+                return new HttpResponseMessage(HttpStatusCode.BadRequest);
+            }
         }
     }
 }

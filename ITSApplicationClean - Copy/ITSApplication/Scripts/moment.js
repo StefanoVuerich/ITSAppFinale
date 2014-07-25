@@ -5,7 +5,6 @@
 //! momentjs.com
 
 (function (undefined) {
-
     /************************************
         Constants
     ************************************/
@@ -271,13 +270,11 @@
     }
     formatTokenFunctions.DDDD = padToken(formatTokenFunctions.DDD, 3);
 
-
     /************************************
         Constructors
     ************************************/
 
     function Language() {
-
     }
 
     // Moment prototype object
@@ -324,7 +321,6 @@
     /************************************
         Helpers
     ************************************/
-
 
     function extend(a, b) {
         for (var i in b) {
@@ -576,9 +572,7 @@
         Languages
     ************************************/
 
-
     extend(Language.prototype, {
-
         set : function (config) {
             var prop, i;
             for (i in config) {
@@ -834,7 +828,6 @@
         Formatting
     ************************************/
 
-
     function removeFormattingTokens(input) {
         if (input.match(/\[[\s\S]/)) {
             return input.replace(/^\[|\]$/g, "");
@@ -864,7 +857,6 @@
 
     // format date using native date object
     function formatMoment(m, format) {
-
         if (!m.isValid()) {
             return m.lang().invalidDate();
         }
@@ -895,11 +887,9 @@
         return format;
     }
 
-
     /************************************
         Parsing
     ************************************/
-
 
     // get the regex to find the next token
     function getParseRegexForToken(token, config) {
@@ -1200,7 +1190,6 @@
 
     // date from string and format string
     function makeDateFromStringAndFormat(config) {
-
         config._a = [];
         config._pf.empty = true;
 
@@ -1404,7 +1393,6 @@
         Relative Time
     ************************************/
 
-
     // helper function for moment.fn.from, moment.fn.fromNow, and moment.duration.fn.humanize
     function substituteTimeAgo(string, number, withoutSuffix, isFuture, lang) {
         return lang.relativeTime(number || 1, !!withoutSuffix, string, isFuture);
@@ -1432,11 +1420,9 @@
         return substituteTimeAgo.apply({}, args);
     }
 
-
     /************************************
         Week of Year
     ************************************/
-
 
     // firstDayOfWeek       0 = sun, 6 = sat
     //                      the day of the week that starts the week
@@ -1449,7 +1435,6 @@
         var end = firstDayOfWeekOfYear - firstDayOfWeek,
             daysToDayOfWeek = firstDayOfWeekOfYear - mom.day(),
             adjustedMoment;
-
 
         if (daysToDayOfWeek > end) {
             daysToDayOfWeek -= 7;
@@ -1692,9 +1677,7 @@
         Moment Prototype
     ************************************/
 
-
     extend(moment.fn = Moment.prototype, {
-
         clone : function () {
             return moment(this);
         },
@@ -1737,7 +1720,6 @@
         },
 
         isDSTShifted : function () {
-
             if (this._a) {
                 return this.isValid() && compareArrays(this._a, (this._isUTC ? moment.utc(this._a) : moment(this._a)).toArray()) > 0;
             }
@@ -2103,9 +2085,7 @@
         Duration Prototype
     ************************************/
 
-
     extend(moment.duration.fn = Duration.prototype, {
-
         _bubble : function () {
             var milliseconds = this._milliseconds,
                 days = this._days,
@@ -2246,11 +2226,9 @@
         return (+this - this.years() * 31536e6) / 2592e6 + this.years() * 12;
     };
 
-
     /************************************
         Default Lang
     ************************************/
-
 
     // Set default language, other languages will inherit from English.
     moment.lang('en', {

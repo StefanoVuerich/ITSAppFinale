@@ -1,11 +1,7 @@
-﻿using System;
+﻿using ServiceStack.Redis;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ObjectModel;
-using ServiceStack.Redis;
 using System.Diagnostics;
+using System.Linq;
 
 namespace Data
 {
@@ -33,6 +29,7 @@ namespace Data
             }
             return tutteNotifiche2;
         }
+
         public static void Insert(string key)
         {
             using (var redis = GetRedisClient())
@@ -42,6 +39,7 @@ namespace Data
                 list.Add(key);
             }
         }
+
         public static void Delete(string key)
         {
             using (var redis = GetRedisClient())
@@ -50,6 +48,7 @@ namespace Data
                 client.Lists["NotificationList"].Remove(key);
             }
         }
+
         public static IEnumerable<string> GetLastNotifications(string lastReceivedNotification)
         {
             using (var redis = GetRedisClient())
@@ -68,7 +67,7 @@ namespace Data
                 if (lastReceivedNotification == "" || allNotification.IndexOf(lastReceivedNotification) == allNotification.Count - 1)
                 {
                     unreceivedNotification = new List<string>();
-                    for (int x = notificationCount - notificheDaInviare; x < notificationCount ; x++)
+                    for (int x = notificationCount - notificheDaInviare; x < notificationCount; x++)
                     {
                         unreceivedNotification.Add(allNotification[x]);
                     }
@@ -96,10 +95,11 @@ namespace Data
                         unreceivedNotification.Add(allNotification[x]);
                     }
                     return unreceivedNotification;
-                } 
-             }
+                }
+            }
         }
-        private static RedisClient GetRedisClient ()
+
+        private static RedisClient GetRedisClient()
         {
             return new RedisClient("192.168.102.2", 6379);
         }

@@ -1,9 +1,6 @@
-﻿using System;
+﻿using ObjectModel;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ObjectModel;
 using System.Configuration;
 using System.Data.SqlClient;
 
@@ -11,11 +8,13 @@ namespace Data
 {
     public class SQLEventsRepository : IRepository<Event>
     {
-        string connectionString;
+        private string connectionString;
+
         public SQLEventsRepository()
             : this("virtualMachineCS")
         {
         }
+
         public SQLEventsRepository(string connectionStringName)
         {
             var cs = ConfigurationManager.ConnectionStrings[connectionStringName];
@@ -23,6 +22,7 @@ namespace Data
                 throw new ApplicationException(string.Format("ConnectionString '{0}' not found", connectionStringName));
             connectionString = cs.ConnectionString;
         }
+
         public IEnumerable<Event> GetAll()
         {
             List<Event> events = new List<Event>();
@@ -62,6 +62,7 @@ namespace Data
 
             return events;
         }
+
         public IEnumerable<Event> GetLastFive()
         {
             List<Event> events = new List<Event>();
@@ -101,9 +102,10 @@ namespace Data
                 }
             }
         }
+
         public Event Get(int id)
         {
-            string query = @"SELECT 
+            string query = @"SELECT
                                 ID,
                                 Data,
                                 DataEvento,
@@ -142,6 +144,7 @@ namespace Data
                 }
             }
         }
+
         public int Post(Event eventObj)
         {
             using (var connection = new SqlConnection(connectionString))
@@ -182,6 +185,7 @@ namespace Data
                 }
             }
         }
+
         public bool Put(Event event_obj)
         {
             using (var connection = new SqlConnection(connectionString))
@@ -207,7 +211,7 @@ namespace Data
 
                     int affectedRows = command.ExecuteNonQuery();
 
-                    if(affectedRows == 1)
+                    if (affectedRows == 1)
                     {
                         return true;
                     }
@@ -215,6 +219,7 @@ namespace Data
                 }
             }
         }
+
         public void Delete(int id)
         {
             using (var connection = new SqlConnection(connectionString))
@@ -235,6 +240,7 @@ namespace Data
                 RedisNotificationRepository.Delete("Event_id_" + id);
             }
         }
+
         public IEnumerable<Event> Search(string keyWord)
         {
             List<Event> events = new List<Event>();

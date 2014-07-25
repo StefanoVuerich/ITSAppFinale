@@ -1,20 +1,13 @@
-﻿using Microsoft.AspNet.Identity;
-using Microsoft.AspNet.Identity.EntityFramework;
+﻿using ITSApplication.Models;
+using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
-using System;
-using System.Threading.Tasks;
-using Microsoft.Owin;
-using Owin;
-using Microsoft.Owin.Cors;
 using Microsoft.AspNet.SignalR;
-using System.Web.Http;
+using Microsoft.Owin;
+using Microsoft.Owin.Cors;
 using Microsoft.Owin.Security.Cookies;
-using Microsoft.Owin.Security.DataProtection;
-using Microsoft.Owin.Security.Google;
-using ITSApplication.Models;
-using System.Web;
-using System.IO;
-using Microsoft.Owin.Extensions;
+using Owin;
+using System;
+using System.Web.Http;
 
 [assembly: OwinStartup("ITSStartup", typeof(ITSApplication.ITSStartup))]
 
@@ -42,7 +35,7 @@ namespace ITSApplication
                         regenerateIdentity: (manager, user) => user.GenerateUserIdentityAsync(manager))
                 }
             });
-            
+
             app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
 
             // Uncomment the following lines to enable logging in with third party login providers
@@ -64,7 +57,6 @@ namespace ITSApplication
             //    ClientSecret = ""
             //});
 
-
             var config = new HttpConfiguration();
             // Web API configuration and services
             config.EnableCors();
@@ -83,7 +75,7 @@ namespace ITSApplication
             app.Map("/signalr", map =>
             {
                 // Setup the CORS middleware to run before SignalR.
-                // By default this will allow all origins. You can 
+                // By default this will allow all origins. You can
                 // configure the set of origins and/or http verbs by
                 // providing a cors options with a different policy.
                 map.UseCors(CorsOptions.AllowAll);

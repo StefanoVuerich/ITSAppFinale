@@ -1,13 +1,11 @@
-﻿using System;
+﻿using Data;
+using ObjectModel;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using Data;
-using ObjectModel;
 using System.Web.Http.Cors;
-using System.Web.Http.OData;
 
 namespace ITSApplication.Controllers
 {
@@ -15,19 +13,22 @@ namespace ITSApplication.Controllers
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class NewsController : ApiController
     {
-        SQLNewsRepository sqlNewsRepository = new SQLNewsRepository();
+        private SQLNewsRepository sqlNewsRepository = new SQLNewsRepository();
+
         [AllowAnonymous]
         [Queryable]
         public IEnumerable<News> GetAll()
         {
             return sqlNewsRepository.GetAll();
         }
+
         [AllowAnonymous]
         [Route("api/news/{lastFiveNews}")]
         public IEnumerable<News> GetAll(string lastFiveNews)
         {
             return sqlNewsRepository.GetLastFive();
         }
+
         [AllowAnonymous]
         [Route("api/news/{id:int}")]
         public News Get(int id)
@@ -39,12 +40,14 @@ namespace ITSApplication.Controllers
             }
             return news;
         }
+
         public HttpResponseMessage Post(News news)
         {
             sqlNewsRepository.Post(news);
             var response = Request.CreateResponse<News>(HttpStatusCode.Created, news);
             return response;
         }
+
         public void Put(News news)
         {
             //news.Id = id;
@@ -53,12 +56,13 @@ namespace ITSApplication.Controllers
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }
         }
+
         [Route("api/news/del/{id:int}")]
         public void Delete(int id)
         {
             News news = sqlNewsRepository.Get(id);
             string image = news.Titolo + "_img.jpeg";
-            if(news == null)
+            if (news == null)
             {
                 throw new HttpResponseException(HttpStatusCode.NotFound);
             }

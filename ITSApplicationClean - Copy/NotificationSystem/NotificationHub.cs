@@ -1,18 +1,14 @@
-﻿using Microsoft.AspNet.SignalR;
-using System;
+﻿using Data;
+using Microsoft.AspNet.SignalR;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using ObjectModel;
 using System.Threading.Tasks;
-using Data;
+using System.Web;
 
 namespace NotificationSystem
 {
     public class NotificationHub : Hub
     {
-
-        static List<string> users = new List<string>();
+        private static List<string> users = new List<string>();
 
         protected void GetUser_IP()
         {
@@ -76,8 +72,8 @@ namespace NotificationSystem
             IHubContext hubContext = GlobalHost.ConnectionManager.GetHubContext<NotificationHub>();
             var clients = hubContext.Clients.All;
             hubContext.Clients.All.broadcastNotification(notification);
-            
         }
+
         public void GetRedisNews(string lastClientReadedNews)
         {
             List<string> unsendedNotifications = (List<string>)RedisNotificationRepository.GetLastNotifications(lastClientReadedNews);

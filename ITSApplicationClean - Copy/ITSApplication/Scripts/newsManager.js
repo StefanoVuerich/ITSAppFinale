@@ -60,7 +60,6 @@
                     contentType: 'json',
                     dataType: 'json',
                     success: function (data) {
-
                         myModal.modal();
                         $('#titolo').val(data.Titolo);
                         $('#testo').val(data.Testo);

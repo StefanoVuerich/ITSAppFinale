@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IRepository.cs" />
+    <Compile Include="NewsletterRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RedisNotificationRepository.cs" />
     <Compile Include="SQLEventsRepository.cs" />
