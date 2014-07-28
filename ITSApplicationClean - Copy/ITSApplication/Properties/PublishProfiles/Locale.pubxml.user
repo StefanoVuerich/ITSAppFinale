@@ -10,43 +10,43 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="App_Data/aspnet-ITSApplication-20140704113849.mdf">
-      <publishTime>07/18/2014 16:25:39</publishTime>
+      <publishTime>07/21/2014 10:41:12</publishTime>
     </File>
     <File Include="App_Data/aspnet-ITSApplication-20140704113849_log.ldf">
-      <publishTime>07/18/2014 16:25:39</publishTime>
+      <publishTime>07/21/2014 10:41:12</publishTime>
     </File>
     <File Include="App_Data/XmlDocument.xml">
       <publishTime>07/10/2014 11:30:07</publishTime>
     </File>
     <File Include="App_Start/BundleConfig.cs">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:33:08</publishTime>
     </File>
     <File Include="App_Start/FilterConfig.cs">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:33:09</publishTime>
     </File>
     <File Include="App_Start/IdentityConfig.cs">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:33:10</publishTime>
     </File>
     <File Include="App_Start/RouteConfig.cs">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:33:10</publishTime>
     </File>
     <File Include="Areas/HelpPage/ApiDescriptionExtensions.cs">
       <publishTime>07/10/2014 09:20:00</publishTime>
     </File>
     <File Include="Areas/HelpPage/App_Start/HelpPageConfig.cs">
-      <publishTime>07/10/2014 09:43:23</publishTime>
+      <publishTime>07/25/2014 12:33:12</publishTime>
     </File>
     <File Include="Areas/HelpPage/Controllers/HelpController.cs">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:12</publishTime>
     </File>
     <File Include="Areas/HelpPage/HelpPage.css">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:13</publishTime>
     </File>
     <File Include="Areas/HelpPage/HelpPageAreaRegistration.cs">
       <publishTime>07/10/2014 09:20:00</publishTime>
     </File>
     <File Include="Areas/HelpPage/HelpPageConfigurationExtensions.cs">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:16</publishTime>
     </File>
     <File Include="Areas/HelpPage/ModelDescriptions/CollectionModelDescription.cs">
       <publishTime>07/10/2014 09:20:00</publishTime>
@@ -58,7 +58,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/10/2014 09:20:00</publishTime>
     </File>
     <File Include="Areas/HelpPage/ModelDescriptions/EnumTypeModelDescription.cs">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:18</publishTime>
     </File>
     <File Include="Areas/HelpPage/ModelDescriptions/EnumValueDescription.cs">
       <publishTime>07/10/2014 09:20:00</publishTime>
@@ -73,7 +73,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/10/2014 09:20:00</publishTime>
     </File>
     <File Include="Areas/HelpPage/ModelDescriptions/ModelDescriptionGenerator.cs">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:21</publishTime>
     </File>
     <File Include="Areas/HelpPage/ModelDescriptions/ModelNameAttribute.cs">
       <publishTime>07/10/2014 09:20:00</publishTime>
@@ -85,19 +85,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/10/2014 09:20:00</publishTime>
     </File>
     <File Include="Areas/HelpPage/ModelDescriptions/ParameterDescription.cs">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:23</publishTime>
     </File>
     <File Include="Areas/HelpPage/ModelDescriptions/SimpleTypeModelDescription.cs">
       <publishTime>07/10/2014 09:20:00</publishTime>
     </File>
     <File Include="Areas/HelpPage/Models/HelpPageApiModel.cs">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:24</publishTime>
     </File>
     <File Include="Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:27</publishTime>
     </File>
     <File Include="Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:28</publishTime>
     </File>
     <File Include="Areas/HelpPage/SampleGeneration/ImageSample.cs">
       <publishTime>07/10/2014 09:20:00</publishTime>
@@ -106,7 +106,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/10/2014 09:20:00</publishTime>
     </File>
     <File Include="Areas/HelpPage/SampleGeneration/ObjectGenerator.cs">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:31</publishTime>
     </File>
     <File Include="Areas/HelpPage/SampleGeneration/SampleDirection.cs">
       <publishTime>07/10/2014 09:20:00</publishTime>
@@ -115,10 +115,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/10/2014 09:20:00</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:33</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:33</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml">
       <publishTime>07/10/2014 09:20:00</publishTime>
@@ -133,7 +133,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/10/2014 09:20:00</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
-      <publishTime>07/10/2014 09:20:00</publishTime>
+      <publishTime>07/25/2014 12:33:35</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
       <publishTime>07/10/2014 09:20:00</publishTime>
@@ -148,10 +148,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/10/2014 09:19:59</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
-      <publishTime>07/10/2014 09:19:59</publishTime>
+      <publishTime>07/25/2014 12:33:37</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
-      <publishTime>07/10/2014 09:19:59</publishTime>
+      <publishTime>07/25/2014 12:33:38</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml">
       <publishTime>07/10/2014 09:19:59</publishTime>
@@ -160,22 +160,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/10/2014 09:19:59</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
-      <publishTime>07/10/2014 09:19:59</publishTime>
+      <publishTime>07/25/2014 12:33:39</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/ResourceModel.cshtml">
-      <publishTime>07/10/2014 09:19:59</publishTime>
+      <publishTime>07/25/2014 12:33:40</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
       <publishTime>07/10/2014 10:40:24</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Web.config">
-      <publishTime>07/10/2014 09:19:59</publishTime>
+      <publishTime>07/25/2014 12:33:41</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
       <publishTime>07/10/2014 10:40:51</publishTime>
     </File>
     <File Include="Areas/HelpPage/XmlDocumentationProvider.cs">
-      <publishTime>07/10/2014 09:19:59</publishTime>
+      <publishTime>07/25/2014 12:33:42</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>07/04/2014 11:29:33</publishTime>
@@ -184,16 +184,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/04/2014 11:29:33</publishTime>
     </File>
     <File Include="bin/App_Data/aspnet-ITSApplication-20140704113849.mdf">
-      <publishTime>07/18/2014 16:25:39</publishTime>
+      <publishTime>07/21/2014 10:41:12</publishTime>
     </File>
     <File Include="bin/App_Data/aspnet-ITSApplication-20140704113849_log.ldf">
-      <publishTime>07/18/2014 16:25:39</publishTime>
+      <publishTime>07/21/2014 10:41:12</publishTime>
     </File>
     <File Include="bin/Data.dll">
-      <publishTime>07/21/2014 09:20:33</publishTime>
+      <publishTime>07/25/2014 17:24:16</publishTime>
     </File>
     <File Include="bin/Data.pdb">
-      <publishTime>07/21/2014 09:20:33</publishTime>
+      <publishTime>07/25/2014 17:24:16</publishTime>
     </File>
     <File Include="bin/de/Microsoft.Data.Edm.resources.dll">
       <publishTime>07/10/2014 16:08:21</publishTime>
@@ -238,10 +238,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/10/2014 16:08:20</publishTime>
     </File>
     <File Include="bin/ITSApplication.dll">
-      <publishTime>07/21/2014 09:20:35</publishTime>
+      <publishTime>07/27/2014 22:39:30</publishTime>
     </File>
     <File Include="bin/ITSApplication.pdb">
-      <publishTime>07/21/2014 09:20:35</publishTime>
+      <publishTime>07/27/2014 22:39:30</publishTime>
     </File>
     <File Include="bin/ITSApplication.XML">
       <publishTime>07/18/2014 23:48:58</publishTime>
@@ -322,16 +322,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/04/2014 11:29:23</publishTime>
     </File>
     <File Include="bin/NotificationSystem.dll">
-      <publishTime>07/21/2014 09:20:34</publishTime>
+      <publishTime>07/25/2014 17:24:16</publishTime>
     </File>
     <File Include="bin/NotificationSystem.pdb">
-      <publishTime>07/21/2014 09:20:34</publishTime>
+      <publishTime>07/25/2014 17:24:16</publishTime>
     </File>
     <File Include="bin/ObjectModel.dll">
-      <publishTime>07/21/2014 09:20:33</publishTime>
+      <publishTime>07/25/2014 17:24:15</publishTime>
     </File>
     <File Include="bin/ObjectModel.pdb">
-      <publishTime>07/21/2014 09:20:33</publishTime>
+      <publishTime>07/25/2014 17:24:15</publishTime>
     </File>
     <File Include="bin/Owin.dll">
       <publishTime>07/04/2014 11:29:39</publishTime>
@@ -423,50 +423,197 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/zh-Hant/System.Spatial.resources.dll">
       <publishTime>07/10/2014 16:08:20</publishTime>
     </File>
+    <File Include="Content/bootstrap-datepicker.css">
+      <publishTime>07/25/2014 12:34:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap-datepicker3.css">
+      <publishTime>07/25/2014 12:34:00</publishTime>
+    </File>
     <File Include="Content/bootstrap.css">
       <publishTime>07/04/2014 11:38:43</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
       <publishTime>07/04/2014 11:38:43</publishTime>
     </File>
+    <File Include="Content/bootstrap/alerts.less">
+      <publishTime>07/25/2014 12:33:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap/badges.less">
+      <publishTime>07/25/2014 12:33:43</publishTime>
+    </File>
+    <File Include="Content/bootstrap/bootstrap.less">
+      <publishTime>07/25/2014 12:33:44</publishTime>
+    </File>
+    <File Include="Content/bootstrap/breadcrumbs.less">
+      <publishTime>07/25/2014 12:33:44</publishTime>
+    </File>
+    <File Include="Content/bootstrap/button-groups.less">
+      <publishTime>07/25/2014 12:33:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap/buttons.less">
+      <publishTime>07/25/2014 12:33:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap/carousel.less">
+      <publishTime>07/25/2014 12:33:45</publishTime>
+    </File>
+    <File Include="Content/bootstrap/close.less">
+      <publishTime>07/25/2014 12:33:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap/code.less">
+      <publishTime>07/25/2014 12:33:46</publishTime>
+    </File>
+    <File Include="Content/bootstrap/component-animations.less">
+      <publishTime>07/25/2014 12:33:47</publishTime>
+    </File>
+    <File Include="Content/bootstrap/dropdowns.less">
+      <publishTime>07/25/2014 12:33:47</publishTime>
+    </File>
+    <File Include="Content/bootstrap/forms.less">
+      <publishTime>07/25/2014 12:33:47</publishTime>
+    </File>
+    <File Include="Content/bootstrap/glyphicons.less">
+      <publishTime>07/25/2014 12:33:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap/grid.less">
+      <publishTime>07/25/2014 12:33:48</publishTime>
+    </File>
+    <File Include="Content/bootstrap/input-groups.less">
+      <publishTime>07/25/2014 12:33:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap/jumbotron.less">
+      <publishTime>07/25/2014 12:33:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap/labels.less">
+      <publishTime>07/25/2014 12:33:49</publishTime>
+    </File>
+    <File Include="Content/bootstrap/list-group.less">
+      <publishTime>07/25/2014 12:33:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap/media.less">
+      <publishTime>07/25/2014 12:33:50</publishTime>
+    </File>
+    <File Include="Content/bootstrap/mixins.less">
+      <publishTime>07/25/2014 12:33:51</publishTime>
+    </File>
+    <File Include="Content/bootstrap/modals.less">
+      <publishTime>07/25/2014 12:33:51</publishTime>
+    </File>
+    <File Include="Content/bootstrap/navbar.less">
+      <publishTime>07/25/2014 12:33:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap/navs.less">
+      <publishTime>07/25/2014 12:33:52</publishTime>
+    </File>
+    <File Include="Content/bootstrap/normalize.less">
+      <publishTime>07/25/2014 12:33:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap/pager.less">
+      <publishTime>07/25/2014 12:33:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap/pagination.less">
+      <publishTime>07/25/2014 12:33:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap/panels.less">
+      <publishTime>07/25/2014 12:33:54</publishTime>
+    </File>
+    <File Include="Content/bootstrap/popovers.less">
+      <publishTime>07/25/2014 12:33:54</publishTime>
+    </File>
+    <File Include="Content/bootstrap/print.less">
+      <publishTime>07/25/2014 12:33:55</publishTime>
+    </File>
+    <File Include="Content/bootstrap/progress-bars.less">
+      <publishTime>07/25/2014 12:33:55</publishTime>
+    </File>
+    <File Include="Content/bootstrap/responsive-utilities.less">
+      <publishTime>07/25/2014 12:33:56</publishTime>
+    </File>
+    <File Include="Content/bootstrap/scaffolding.less">
+      <publishTime>07/25/2014 12:33:56</publishTime>
+    </File>
+    <File Include="Content/bootstrap/tables.less">
+      <publishTime>07/25/2014 12:33:56</publishTime>
+    </File>
+    <File Include="Content/bootstrap/theme.less">
+      <publishTime>07/25/2014 12:33:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap/thumbnails.less">
+      <publishTime>07/25/2014 12:33:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap/tooltip.less">
+      <publishTime>07/25/2014 12:33:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/type.less">
+      <publishTime>07/25/2014 12:33:58</publishTime>
+    </File>
+    <File Include="Content/bootstrap/utilities.less">
+      <publishTime>07/25/2014 12:33:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/variables.less">
+      <publishTime>07/25/2014 12:33:59</publishTime>
+    </File>
+    <File Include="Content/bootstrap/wells.less">
+      <publishTime>07/25/2014 12:33:59</publishTime>
+    </File>
     <File Include="Content/eventsManager.css">
-      <publishTime>07/15/2014 09:40:06</publishTime>
+      <publishTime>07/25/2014 12:34:02</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>07/24/2014 10:24:29</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>07/24/2014 10:24:29</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>07/24/2014 10:24:28</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>07/24/2014 10:24:28</publishTime>
     </File>
     <File Include="Content/newsManager.css">
-      <publishTime>07/14/2014 22:31:34</publishTime>
+      <publishTime>07/25/2014 12:34:03</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:34:03</publishTime>
     </File>
     <File Include="Controllers/AccountController.cs">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:34:06</publishTime>
+    </File>
+    <File Include="Controllers/EmailController.cs">
+      <publishTime>07/25/2014 12:35:39</publishTime>
     </File>
     <File Include="Controllers/EventsController.cs">
-      <publishTime>07/14/2014 12:49:40</publishTime>
+      <publishTime>07/25/2014 12:34:08</publishTime>
     </File>
     <File Include="Controllers/FormController.cs">
-      <publishTime>07/15/2014 12:14:17</publishTime>
+      <publishTime>07/25/2014 12:34:09</publishTime>
     </File>
     <File Include="Controllers/HomeController.cs">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:34:09</publishTime>
+    </File>
+    <File Include="Controllers/ImageController.cs">
+      <publishTime>07/25/2014 16:00:31</publishTime>
     </File>
     <File Include="Controllers/ManagerController.cs">
-      <publishTime>07/14/2014 14:14:28</publishTime>
+      <publishTime>07/25/2014 12:34:10</publishTime>
     </File>
     <File Include="Controllers/NewsController.cs">
-      <publishTime>07/15/2014 15:51:04</publishTime>
+      <publishTime>07/25/2014 12:34:11</publishTime>
+    </File>
+    <File Include="Controllers/NewsletterController.cs">
+      <publishTime>07/25/2014 12:41:19</publishTime>
     </File>
     <File Include="Controllers/RedisController.cs">
-      <publishTime>07/14/2014 09:36:48</publishTime>
+      <publishTime>07/25/2014 12:34:13</publishTime>
     </File>
     <File Include="Controllers/SearchController.cs">
-      <publishTime>07/09/2014 12:13:16</publishTime>
+      <publishTime>07/25/2014 12:34:13</publishTime>
     </File>
     <File Include="Controllers/UserController.cs">
       <publishTime>07/19/2014 00:46:20</publishTime>
     </File>
     <File Include="Controllers/ValuesController.cs">
-      <publishTime>07/10/2014 09:39:52</publishTime>
+      <publishTime>07/25/2014 12:34:14</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>07/04/2014 11:38:42</publishTime>
@@ -487,7 +634,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/04/2014 11:38:42</publishTime>
     </File>
     <File Include="Global.asax.cs">
-      <publishTime>07/10/2014 12:20:45</publishTime>
+      <publishTime>07/25/2014 12:34:15</publishTime>
     </File>
     <File Include="ImageUploader.asmx">
       <publishTime>07/11/2014 10:54:37</publishTime>
@@ -499,28 +646,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/11/2014 10:35:53</publishTime>
     </File>
     <File Include="ITSApplication.csproj">
-      <publishTime>07/21/2014 09:14:55</publishTime>
+      <publishTime>07/27/2014 22:39:22</publishTime>
     </File>
     <File Include="ITSApplication.csproj.user">
-      <publishTime>07/21/2014 09:14:55</publishTime>
+      <publishTime>07/27/2014 22:39:22</publishTime>
     </File>
     <File Include="ITSStartup.cs">
-      <publishTime>07/15/2014 17:22:48</publishTime>
+      <publishTime>07/25/2014 12:34:15</publishTime>
     </File>
     <File Include="Models/AccountViewModels.cs">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:34:17</publishTime>
     </File>
     <File Include="Models/IdentityModels.cs">
-      <publishTime>07/18/2014 16:35:06</publishTime>
+      <publishTime>07/25/2014 12:34:18</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>07/10/2014 16:08:26</publishTime>
+      <publishTime>07/24/2014 11:00:46</publishTime>
     </File>
     <File Include="Project_Readme.html">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:34:19</publishTime>
     </File>
     <File Include="Properties/AssemblyInfo.cs">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:34:19</publishTime>
     </File>
     <File Include="Properties/PublishProfiles/Locale.pubxml">
       <publishTime>07/18/2014 23:57:07</publishTime>
@@ -531,38 +678,41 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Properties/PublishProfiles/UniLan2.pubxml">
       <publishTime>07/18/2014 10:37:23</publishTime>
     </File>
+    <File Include="Scripts/bootstrap-datepicker.js">
+      <publishTime>07/25/2014 12:34:21</publishTime>
+    </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>07/04/2014 11:38:43</publishTime>
+      <publishTime>07/25/2014 12:34:21</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
       <publishTime>07/04/2014 11:38:43</publishTime>
     </File>
     <File Include="Scripts/eventsManager.js">
-      <publishTime>07/15/2014 09:51:52</publishTime>
+      <publishTime>07/25/2014 12:34:22</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.intellisense.js">
-      <publishTime>07/04/2014 11:38:43</publishTime>
+      <publishTime>07/25/2014 12:34:22</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.js">
-      <publishTime>07/04/2014 11:38:43</publishTime>
+      <publishTime>07/25/2014 12:34:23</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.js">
-      <publishTime>07/04/2014 11:38:43</publishTime>
+      <publishTime>07/25/2014 12:34:24</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.map">
       <publishTime>07/04/2014 11:38:43</publishTime>
     </File>
     <File Include="Scripts/jquery.signalR-2.1.0.js">
-      <publishTime>07/08/2014 22:17:55</publishTime>
+      <publishTime>07/25/2014 12:34:25</publishTime>
     </File>
     <File Include="Scripts/jquery.signalR-2.1.0.min.js">
       <publishTime>07/08/2014 22:17:55</publishTime>
     </File>
     <File Include="Scripts/jquery.validate-vsdoc.js">
-      <publishTime>07/04/2014 11:38:45</publishTime>
+      <publishTime>07/25/2014 12:34:26</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.js">
-      <publishTime>07/04/2014 11:38:45</publishTime>
+      <publishTime>07/25/2014 12:34:26</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.min.js">
       <publishTime>07/04/2014 11:38:45</publishTime>
@@ -573,20 +723,188 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
       <publishTime>07/04/2014 11:38:46</publishTime>
     </File>
+    <File Include="Scripts/less-1.4.1.min.js">
+      <publishTime>07/24/2014 10:24:00</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.ar.js">
+      <publishTime>07/25/2014 12:34:29</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.az.js">
+      <publishTime>07/25/2014 12:34:29</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.bg.js">
+      <publishTime>07/25/2014 12:34:30</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.ca.js">
+      <publishTime>07/25/2014 12:34:30</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.cs.js">
+      <publishTime>07/25/2014 12:34:30</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.cy.js">
+      <publishTime>07/25/2014 12:34:31</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.da.js">
+      <publishTime>07/25/2014 12:34:31</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.de.js">
+      <publishTime>07/25/2014 12:34:31</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.el.js">
+      <publishTime>07/25/2014 12:34:32</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.es.js">
+      <publishTime>07/25/2014 12:34:32</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.et.js">
+      <publishTime>07/25/2014 12:34:33</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.fa.js">
+      <publishTime>07/25/2014 12:34:33</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.fi.js">
+      <publishTime>07/25/2014 12:34:33</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.fr.js">
+      <publishTime>07/25/2014 12:34:34</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.gl.js">
+      <publishTime>07/25/2014 12:34:34</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.he.js">
+      <publishTime>07/25/2014 12:34:35</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.hr.js">
+      <publishTime>07/25/2014 12:34:35</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.hu.js">
+      <publishTime>07/25/2014 12:34:35</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.id.js">
+      <publishTime>07/25/2014 12:34:36</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.is.js">
+      <publishTime>07/25/2014 12:34:36</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.it.js">
+      <publishTime>07/25/2014 12:34:37</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.ja.js">
+      <publishTime>07/25/2014 12:34:37</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.ka.js">
+      <publishTime>07/25/2014 12:34:38</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.kk.js">
+      <publishTime>07/25/2014 12:34:38</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.kr.js">
+      <publishTime>07/25/2014 12:34:38</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.lt.js">
+      <publishTime>07/25/2014 12:34:39</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.lv.js">
+      <publishTime>07/25/2014 12:34:39</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.mk.js">
+      <publishTime>07/25/2014 12:34:40</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.ms.js">
+      <publishTime>07/25/2014 12:34:40</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.nb.js">
+      <publishTime>07/25/2014 12:34:41</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.nl-BE.js">
+      <publishTime>07/25/2014 12:34:41</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.nl.js">
+      <publishTime>07/25/2014 12:34:41</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.no.js">
+      <publishTime>07/25/2014 12:34:42</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.pl.js">
+      <publishTime>07/25/2014 12:34:42</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.pt-BR.js">
+      <publishTime>07/25/2014 12:34:43</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.pt.js">
+      <publishTime>07/25/2014 12:34:43</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.ro.js">
+      <publishTime>07/25/2014 12:34:44</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.rs-latin.js">
+      <publishTime>07/25/2014 12:34:44</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.rs.js">
+      <publishTime>07/25/2014 12:34:45</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.ru.js">
+      <publishTime>07/25/2014 12:34:45</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.sk.js">
+      <publishTime>07/25/2014 12:34:45</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.sl.js">
+      <publishTime>07/25/2014 12:34:46</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.sq.js">
+      <publishTime>07/25/2014 12:34:46</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.sv.js">
+      <publishTime>07/25/2014 12:34:47</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.sw.js">
+      <publishTime>07/25/2014 12:34:47</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.th.js">
+      <publishTime>07/25/2014 12:34:48</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.tr.js">
+      <publishTime>07/25/2014 12:34:48</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.ua.js">
+      <publishTime>07/25/2014 12:34:48</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.vi.js">
+      <publishTime>07/25/2014 12:34:49</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.zh-CN.js">
+      <publishTime>07/25/2014 12:34:49</publishTime>
+    </File>
+    <File Include="Scripts/locales/bootstrap-datepicker.zh-TW.js">
+      <publishTime>07/25/2014 12:34:50</publishTime>
+    </File>
     <File Include="Scripts/modernizr-2.6.2.js">
-      <publishTime>07/04/2014 11:38:45</publishTime>
+      <publishTime>07/25/2014 12:34:50</publishTime>
+    </File>
+    <File Include="Scripts/moment-with-langs.js">
+      <publishTime>07/25/2014 12:34:51</publishTime>
+    </File>
+    <File Include="Scripts/moment-with-langs.min.js">
+      <publishTime>07/24/2014 10:24:30</publishTime>
+    </File>
+    <File Include="Scripts/moment.js">
+      <publishTime>07/25/2014 12:34:53</publishTime>
+    </File>
+    <File Include="Scripts/moment.min.js">
+      <publishTime>07/24/2014 10:24:30</publishTime>
     </File>
     <File Include="Scripts/newsManager.js">
-      <publishTime>07/15/2014 15:06:20</publishTime>
+      <publishTime>07/25/2014 12:34:54</publishTime>
     </File>
     <File Include="Scripts/respond.js">
-      <publishTime>07/04/2014 11:38:45</publishTime>
+      <publishTime>07/25/2014 12:34:54</publishTime>
     </File>
     <File Include="Scripts/respond.min.js">
       <publishTime>07/04/2014 11:38:45</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>07/20/2014 20:56:37</publishTime>
+      <publishTime>07/25/2014 16:13:08</publishTime>
     </File>
     <File Include="Service References/ServiceReference1/configuration.svcinfo">
       <publishTime>07/11/2014 11:22:50</publishTime>
@@ -604,55 +922,58 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/11/2014 11:22:51</publishTime>
     </File>
     <File Include="Service References/ServiceReference1/Reference.cs">
-      <publishTime>07/11/2014 11:22:51</publishTime>
+      <publishTime>07/25/2014 12:34:57</publishTime>
     </File>
     <File Include="Service References/ServiceReference1/Reference.svcmap">
       <publishTime>07/11/2014 11:22:50</publishTime>
     </File>
     <File Include="Views/Account/ConfirmEmail.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:01</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:01</publishTime>
     </File>
     <File Include="Views/Account/ExternalLoginFailure.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:02</publishTime>
     </File>
     <File Include="Views/Account/ForgotPassword.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:02</publishTime>
     </File>
     <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:03</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
       <publishTime>07/04/2014 11:38:47</publishTime>
     </File>
     <File Include="Views/Account/Manage.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:04</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:04</publishTime>
     </File>
     <File Include="Views/Account/ResetPassword.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:05</publishTime>
     </File>
     <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:05</publishTime>
     </File>
     <File Include="Views/Account/_ChangePasswordPartial.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:34:59</publishTime>
     </File>
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:34:59</publishTime>
     </File>
     <File Include="Views/Account/_RemoveAccountPartial.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:00</publishTime>
     </File>
     <File Include="Views/Account/_SetPasswordPartial.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:00</publishTime>
+    </File>
+    <File Include="Views/Form/EditEntity.cshtml">
+      <publishTime>07/25/2014 12:35:06</publishTime>
     </File>
     <File Include="Views/Home/About.cshtml">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:35:06</publishTime>
     </File>
     <File Include="Views/Home/Contact.cshtml">
       <publishTime>07/04/2014 11:38:42</publishTime>
@@ -661,34 +982,34 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/04/2014 11:41:18</publishTime>
     </File>
     <File Include="Views/Manager/EventManager.cshtml">
-      <publishTime>07/15/2014 09:42:22</publishTime>
+      <publishTime>07/25/2014 12:35:07</publishTime>
     </File>
     <File Include="Views/Manager/NewsManager.cshtml">
-      <publishTime>07/15/2014 12:34:01</publishTime>
+      <publishTime>07/25/2014 12:35:08</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:09</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>07/10/2014 10:18:32</publishTime>
+      <publishTime>07/25/2014 12:35:08</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
-      <publishTime>07/04/2014 11:38:47</publishTime>
+      <publishTime>07/25/2014 12:35:09</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:35:10</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:34:58</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/21/2014 09:52:38</publishTime>
+      <publishTime>07/27/2014 21:55:07</publishTime>
     </File>
     <File Include="Web.Debug.config">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:35:11</publishTime>
     </File>
     <File Include="Web.Release.config">
-      <publishTime>07/04/2014 11:38:42</publishTime>
+      <publishTime>07/25/2014 12:35:11</publishTime>
     </File>
   </ItemGroup>
 </Project>

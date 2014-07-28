@@ -74,10 +74,10 @@ namespace Data
                     return unreceivedNotification;
                 }
                 // caso in cui sono state immesse meno di x(5) notifiche dall'ultimo accesso
-                else if ((allNotification.Count - 1) - allNotification.IndexOf(lastReceivedNotification) < notificationCount)
+                else if ((allNotification.Count - 1) - allNotification.IndexOf(lastReceivedNotification) < notificheDaInviare)
                 {
                     unreceivedNotification = new List<string>();
-                    for (int x = notificationCount - notificationCount; x < allNotification.Count; x++)
+                    for (int x = notificationCount - notificheDaInviare; x < notificationCount; x++)
                     {
                         unreceivedNotification.Add(allNotification[x]);
                     }

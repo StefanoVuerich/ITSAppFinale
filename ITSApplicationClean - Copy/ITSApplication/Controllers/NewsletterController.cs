@@ -4,10 +4,12 @@ using System.Net;
 using System.Net.Http;
 using System.Text.RegularExpressions;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace ITSApplication.Controllers
 {
     [AllowAnonymous]
+    [EnableCors(origins: "*", headers: "*", methods: "POST")]
     public class NewsletterController : ApiController
     {
         private NewsletterRepository _rep = new NewsletterRepository();
